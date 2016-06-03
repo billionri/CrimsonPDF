@@ -19,7 +19,7 @@ require "../JsonPDF.php";
             ),
             array(
                 'type' => 'text',
-                'text' => 'Country Data',
+                'text' => 'Info Data',
                 'font' => 'THSarabun',
                 'font-style' => 'B',
                 'font-size'  => 26,
@@ -28,7 +28,7 @@ require "../JsonPDF.php";
             ),
             array(
                 'type' => 'text',
-                'text' => 'World Infomation Corp.',
+                'text' => 'Crimson Test',
                 'font' => 'THSarabun',
                 'font-style' => 'b',
                 'font-size'  => 22,
