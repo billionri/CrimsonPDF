@@ -4,6 +4,7 @@ Regarding the assignment provided.
 Step1: Place this project at the server.
 
 Step2: Send request using curl or postman or any POST method sender with variables values. 
+
 Curl example: curl -X POST --data "UserRequest='{"header": [..array of object..], "footer": [..array of object..]'" Your server url to CrimsonPDF/src/ratiw/JsonPDF/test/
 
 Step3:
