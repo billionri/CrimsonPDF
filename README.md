@@ -1,4 +1,4 @@
-##Install using Composer
+##Installation instruction 
 Regarding the assignment provided.
 
 Step1: Place this project at the server.
