@@ -198,7 +198,7 @@ require "../JsonPDF.php";
                 array('country' => 'Belgium', 'capital' => 'Brussels', 'area' => '30,518', 'pop' => '10,192'),
                 array('country' => 'Denmark', 'capital' => 'Copenhagen', 'area' => '43,094', 'pop' => '5,295'),
                 array('country' => 'Finland', 'capital' => 'Helsinki', 'area' => '304,529', 'pop' => '5,147'),
-                array('country' => 'Franch', 'capital' => 'Paris', 'area' => '543,965', 'pop' => '58,728'),
+                array('country' => 'Franch', 'capital'  => 'Paris', 'area' => '543,965', 'pop' => '58,728'),
                 array('country' => 'Germany', 'capital' => 'Berlin', 'area' => '357,22', 'pop' => '82,057'),
             ),
         ),

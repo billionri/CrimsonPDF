@@ -1,0 +1,45 @@
+[
+    {
+        "name": "ratiw/jsonpdf",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ratiw/JsonPDF.git",
+            "reference": "23509695caa282fa3f0eadf254a2a1764bffbf78"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ratiw/JsonPDF/zipball/23509695caa282fa3f0eadf254a2a1764bffbf78",
+            "reference": "23509695caa282fa3f0eadf254a2a1764bffbf78",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-10-04 11:40:33",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "ratiw\\JsonPDF": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Rati Wannapanop",
+                "email": "rati.wannapanop@gmail.com"
+            }
+        ],
+        "description": "JsonPDF is a wrapper class of FPDF for creating PDF using JSON data.",
+        "keywords": [
+            "fpdf",
+            "json",
+            "pdf"
+        ]
+    }
+]

@@ -1,3 +1,36 @@
+##Install using Composer
+Regarding the assignment provided.
+
+Step1: Place this project at the server.
+Step2: Send request using curl or postman or any POST method sender with variables values. 
+Step3:
+Prepare json array like 
+
+    {
+        "header":   [..array of object..],
+        "footer":   [..array of object..],
+        "body":     [..array of object..],
+        "settings": [
+            "title":    "Document Title",
+            "author":   "Author name",
+            "subject":  "Subject",
+            "creator":  "Generator name",
+            "keywords": "list of keywords here",
+            "defaultFont": [
+                "name": "FontName",
+                "size":  16
+            ]
+        ],
+        "fonts":    [..array of font to be added..],
+        "data":     [..array of data..],
+        "tables":   [..table definition..]
+    }
+Step4:
+Send above json to this dir CrimsonPDF/src/ratiw/JsonPDF/test/ with POST method with variablename as UserRequest and value as above json in string. Eg: UserRequest='{"header": [..array of object..], "footer": [..array of object..]'
+
+
+Step5:
+You will get output in pdf format. For different options in json to send please refer below doc. We have used Third-party Api to I/O pdf.
 
 __JsonPDF__ is a wrapper class for [FPDF](http://www.fpdf.org) to allow creating PDF document from [JSON](http://en.wikipedia.org/wiki/JSON) data.
 
